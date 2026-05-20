@@ -1,0 +1,88 @@
+/* BODY */
+body {
+    background-color: aquamarine;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* FIXED HEADER */
+.fixed-position {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: darkblue;
+    color: white;
+    padding: 10px;
+
+}
+
+/* STICKY NAVBAR */
+.sticky-position {
+    position: sticky;
+    top: 100px;
+    background-color: black;
+    padding: 15px;
+    text-align: center;
+}
+
+/* BOX SECTION */
+.boxes {
+    margin-top: 170px;
+}
+
+/* BOX MODEL */
+.box {
+background-color: beige;
+padding: 20px;
+border: 3px solid black;
+margin: 20px;
+}
+
+/* POSITIONING CONTAINER */
+.position-container {
+position: relative;
+border: 3px solid black;
+padding: 40px;
+margin: 20px;
+background-color: white;
+}
+
+/* ABSOLUTE LABEL */
+.label {
+position: absolute;
+top: 0;
+right: 0;
+background-color: blue;
+padding: 5px;
+}
+
+/* FLOAT LEFT */
+.main-content {
+float: left;
+width: 65%;
+background-color: lightyellow;
+border: 2px solid black;
+padding: 20px;
+margin: 20px;
+}
+
+/* FLOAT RIGHT */
+.sidebar {
+float: right;
+width: 20%;
+background-color: lightgray;
+border: 2px solid black;
+padding: 20px;
+margin: 20px;
+}
+
+/* CLEAR BOTH */
+.footer {
+clear: both;
+background-color: black;
+color: white;
+text-align: center;
+padding: 20px;
+margin-top: 20px;
+}
