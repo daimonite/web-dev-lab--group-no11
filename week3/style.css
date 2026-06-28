@@ -39,7 +39,7 @@ h1, h2, h3 {
 
 /* Descendant selector */
 nav ul li a {
-  color: white;
+  color: rgb(69, 30, 30);
 
 }
 
